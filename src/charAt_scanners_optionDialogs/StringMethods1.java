@@ -14,12 +14,12 @@ public class StringMethods1 {
 		System.out.println(s.charAt(3));
 		// 3. Print the length of your String to the console.
 		//    HINT: .length()
-		System.out.println(6);
+		//System.out.println(6);
 		// 4. Using a for loop, print one char at time to the console.
 		//    HINT: use .length() to determine how many loops
 
-		for (int i = s.length(); i < 6; i++) {
-			
+		for (int i = 0; i < s.length(); i++) {
+			System.out.println(s.charAt(i));
 		}
 		// 5. Pick a char inside your String, and use a loop to determine
 		//    what position/index in the String the char is located.
